@@ -1,0 +1,597 @@
+/* 메뉴 상단 */
+.main-nav {
+    background-color: #443C68;
+}
+
+.main-nav .container {
+    width: 1180px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar-brand img {
+    position: absolute;
+    height: 140px;
+    left: 44.5%;
+    top: -20px;
+}
+
+.navbars {
+    float: left;
+    margin-right: 180px;
+    margin-top: 57px;
+}
+
+.navbar-navs {
+    position: absolute;
+    left: 0;
+    top: 59px;
+}
+
+.navbar-navs li {
+    float: left;
+    margin-right: 47px;
+    font-size: 16px;
+}
+
+.navbar-navs li a {
+    color: snow;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: block;
+}
+
+.navbar-login {
+    position: absolute;
+    right: 0;
+    top: 59px;
+}
+
+.navbar-login li {
+    float: right;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.navbar-login li a {
+    color: snow;
+    text-decoration: none;
+}
+
+
+/* 메인베너 이미지 포스터 */
+.main-banner {
+    background-color: snow;
+    position: relative;
+}
+
+.main-banner .container {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-banner .container .list3 {
+    position: absolute;
+    top: 73px;
+    right: 0
+}
+
+.main-banner .container .list3 li {
+    float: left;
+}
+
+.main-banner .container .list3 li::after {
+    content: "ㅣ";
+    display: inline-block;
+    color: #333;
+}
+
+.main-banner .container .list3 li:last-child:after {
+    content: "";
+}
+
+.main-banner .container .list3 li a {
+    color: #333;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-banner .container .movie-list li {
+    width: 380px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 110px;
+    margin-top: 140px;
+}
+
+.main-banner .container .movie-list li:last-child {
+    margin-right: 0;
+}
+
+.main-banner .container .movie-list li strong {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    color: snow;
+}
+
+.main-banner .container .movie-list li span {
+    display: block;
+    color: snow;
+}
+
+.main-banner .arrow button i {
+    font-size: 59px;
+    color: snow;
+}
+
+.main-banner .arrow button .bi-chevron-right {
+    position: absolute;
+    top: 350px;
+    right: 250px;
+}
+
+.main-banner .arrow button .bi-chevron-left {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+/* 현재 상영작 */
+.now-playing .container {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.now-playing .container h2 {
+    margin-top: 90px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.now-playing .container .now-list li {
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+
+.now-playing .container .now-list li:nth-child(4n) {
+    margin-right: 0
+}
+
+.now-playing .now-list li strong {
+    display: block;
+    padding-top: 14px;
+    margin-bottom: 30px;
+}
+
+/* 공지사항 */
+.info-notice {
+    margin-top: 90px;
+}
+
+.info-notice .border {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: 1px solid #e2e2e2;
+    border-width: 1px 0;
+}
+
+.info-notice h2 {
+    margin-left: 360px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-notice .wrap>p {
+    height: 60px;
+    line-height: 60px;
+}
+
+.info-notice .wrap {
+    width: 1180px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.info-notice .wrap .tit {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #222;
+    font-weight: 400;
+}
+
+.info-notice .wrap .link {
+    position: relative;
+    left: 80px;
+}
+
+.info-notice .wrap .link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    width: 1px;
+    height: 14px;
+    margin-top: -7px;
+    background-color: #e2e2e2;
+}
+
+.info-notice .wrap .link a {
+    overflow: hidden;
+    display: inline-block;
+    color: #222;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info-notice .wrap .link a strong {
+    color: #01738b;
+    font-weight: 600;
+}
+
+.info-notice .wrap .date {
+    position: absolute;
+    right: 85px;
+    top: 0;
+    color: #666;
+    font-family: 'Roboto';
+}
+
+.info-notice .wrap .more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    text-align: right;
+    color: #222;
+}
+
+.info-notice .wrap .more::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 14px;
+    margin-top: -7px;
+    background-color: #e2e2e2;
+}
+
+.info-notice .wrap .more .iconset {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+/* 푸터 하단 */
+footer {
+    height: 228px;
+    background: #18122B;
+}
+
+footer .container {
+    margin: 0 auto;
+    width: 1180px;
+    padding-top: 65px;
+}
+
+footer .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer .left-footer {
+    width: 350px;
+    float: left;
+    color: snow;
+}
+
+footer .left-footer ul {
+    padding-bottom: 50px;
+}
+
+footer .left-footer li {
+    float: left;
+    margin-right: 30px;
+}
+
+footer .left-footer li a {
+    color: snow;
+}
+
+footer .left-footer li,
+footer .left-footer p,
+footer .left-footer strong {
+    font-size: 12px;
+}
+
+footer .right-footer {
+    float: right;
+    margin-top: 65px;
+}
+
+footer .right-footer div {
+    font-size: 13px;
+    color: snow;
+}
+
+/* 티켓팅 */
+.ticketing .container {
+    height: 200px;
+    width: 1180px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.ticketing .container h2 {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.ticketing .container .btn-group {
+    left: 25%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.ticketing .container .btn-group button {
+    background-color: #8F86B8;
+    border-color: #8F86B8;
+    opacity: 0.78;
+    color: black;
+}
+
+.ticketing .container .btn-group ul {
+    width: 100%;
+}
+
+/* 좌석 선택 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/* 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+} */
+
+/* .movie-container {
+    margin: 20px 0;
+}
+
+.movie-container h1 {
+    background: #1E1C28;
+    padding: 10px;
+}
+
+.movie-container select {
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    appearance: none;
+} */
+
+.container-seat {
+    perspective: 1000px;
+    margin-bottom: 30px;
+    left: 40%;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.seat {
+    background: #444451;
+    height: 12px;
+    width: 15px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.seat.selected {
+    background: #6feaf6;
+}
+
+.seat.occupied {
+    background: #f80202;
+}
+
+.seat:nth-of-type(2) {
+    margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+    margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+.showcase {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    font-family: 'Lato', sans-serif;
+}
+
+.showcase .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.showcase li small {
+    margin-left: 2px;
+}
+
+.row {
+    display: flex;
+}
+
+.screen {
+    background: #fff;
+    height: 70px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 7%;
+}
+
+p.text {
+    margin: 5px 0;
+}
+
+p.text span {
+    color: #6feaf6;
+}
+
+.clear {
+    background: #777;
+    border: 2px solid #777;
+    border-radius: 5px;
+    width: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.clear:hover {
+    cursor: pointer;
+}
+
+/* 예매확인 입력 */
+
+.ticketingCheckBox {
+    position: relative;
+    margin: 60px;
+}
+
+.ticketingCheck {
+    box-sizing: border-box;
+    margin: 0 auto 180px;
+    width: 1180px;
+    height: 500px;
+    border: 1px solid #D9D9D9;
+}
+
+.ticketingCheck h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+}
+.ticketingName h3 {
+    font-size: 19px;  
+    font-weight: 600; 
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ticketingName {
+    text-align: center;
+
+}
+.name {
+    text-align: center;
+    margin-top: 20px;
+    
+    width:380px; 
+    height:50px; 
+    border-radius: 15px; 
+    font-size: 16px; 
+    padding-left:10px; 
+    border: 1px solid #dedede;
+    box-sizing: border-box; 
+    margin-bottom:40px;
+}
+.name:focus {
+    box-shadow: 0px 0px 10px #4643f496;
+    outline-style: none;
+}
+
+.ticketingPhoneNumber h3 {
+
+    font-size: 19px;  
+    font-weight: 600; 
+    text-align: center;
+}
+
+.ticketingPhoneNumber {
+    text-align: center;
+}
+
+.phoneNumber {
+    text-align: center;
+    margin-top: 20px;
+    
+    width:380px; 
+    height:50px; 
+    border-radius: 15px; 
+    font-size: 16px; 
+    padding-left:10px; 
+    border: 1px solid #dedede;
+    box-sizing: border-box; 
+    margin-bottom:25px;
+}
+.phoneNumber:focus {
+    box-shadow: 0px 0px 10px #4643f496;
+    outline-style: none;
+}
+
+.ticketingcheck-btn {
+    margin-left: 710px; 
+    width:70px; 
+    height:30px; 
+    background:#8f86bb; 
+    color: snow; 
+    font-size:16px; 
+    border-radius: 10px;
+}
+
+/* 예매확인 정보 */
