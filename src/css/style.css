@@ -526,9 +526,10 @@ p.text span {
     text-align: center;
     font-weight: 200;
 }
+
 .ticketingName h3 {
-    font-size: 19px;  
-    font-weight: 600; 
+    font-size: 19px;
+    font-weight: 600;
     margin-top: 50px;
     text-align: center;
 }
@@ -537,19 +538,21 @@ p.text span {
     text-align: center;
 
 }
+
 .name {
     text-align: center;
     margin-top: 20px;
-    
-    width:380px; 
-    height:50px; 
-    border-radius: 15px; 
-    font-size: 16px; 
-    padding-left:10px; 
+
+    width: 380px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-left: 10px;
     border: 1px solid #dedede;
-    box-sizing: border-box; 
-    margin-bottom:40px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
 }
+
 .name:focus {
     box-shadow: 0px 0px 10px #4643f496;
     outline-style: none;
@@ -557,8 +560,8 @@ p.text span {
 
 .ticketingPhoneNumber h3 {
 
-    font-size: 19px;  
-    font-weight: 600; 
+    font-size: 19px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -569,29 +572,85 @@ p.text span {
 .phoneNumber {
     text-align: center;
     margin-top: 20px;
-    
-    width:380px; 
-    height:50px; 
-    border-radius: 15px; 
-    font-size: 16px; 
-    padding-left:10px; 
+
+    width: 380px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-left: 10px;
     border: 1px solid #dedede;
-    box-sizing: border-box; 
-    margin-bottom:25px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
 }
+
 .phoneNumber:focus {
     box-shadow: 0px 0px 10px #4643f496;
     outline-style: none;
 }
 
 .ticketingcheck-btn {
-    margin-left: 710px; 
-    width:70px; 
-    height:30px; 
-    background:#8f86bb; 
-    color: snow; 
-    font-size:16px; 
+    margin-left: 710px;
+    width: 70px;
+    height: 30px;
+    background: #8f86bb;
+    color: snow;
+    font-size: 16px;
     border-radius: 10px;
 }
 
-/* 예매확인 정보 */
+/* 예매내역 확인*/
+
+ .confirmation {
+    background-image: url(../img/cloud.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.box1 {
+    margin: 0 auto;
+    width: 1180px;
+
+}
+
+.confirmation .box1 h2 {
+    padding-top: 150px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box2 {
+    margin-bottom: 30px;
+    width:1180px;
+    height: 400px; 
+    background-color: #01738b;
+}
+
+.box2 img {
+    margin-top:34px;
+    margin-left:47px;
+    float:left;
+}
+
+.box2 ul {
+    float:left;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+.cf::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.confirmation-btn {
+    margin-left: 1470px;
+    width: 70px;
+    height: 30px;
+    background: #8f86bb;
+    color: snow;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
