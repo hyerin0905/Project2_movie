@@ -509,6 +509,7 @@ p.text span {
 .ticketingCheckBox {
     position: relative;
     margin: 60px;
+    margin-top: 150px;
 }
 
 .ticketingCheck {
@@ -600,30 +601,30 @@ p.text span {
 
 /* 예매내역 확인*/
 
- .confirmation {
-    background-image: url(../img/cloud.jpg);
-    background-repeat: no-repeat;
-
-}
-
 .box1 {
     margin: 0 auto;
     width: 1180px;
-
+}
+.box1-1 {
+    border: 1px solid; 
+    border-color: rgba(217, 217, 217, 1);
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .confirmation .box1 h2 {
-    padding-top: 150px;
+    padding-top: 120px;
     margin-bottom: 40px;
+    margin-left: 130px;
     font-size: 30px;
     font-weight: 500;
 }
 
 .box2 {
+    margin-left: 90px;
     margin-bottom: 30px;
-    width:1180px;
+    width:1000px;
     height: 400px; 
-    background-color: #01738b;
 }
 
 .box2 img {
@@ -636,16 +637,22 @@ p.text span {
     float:left;
     margin-left: 50px;
     margin-top: 100px;
+    
 
 }
 
+.box2 ul li {
+    font-size: 25px;
+}
+
+/* 
 .cf::after {
     content:"";
     display:block;
     clear:both;
-}
+} */
 .confirmation-btn {
-    margin-left: 1470px;
+    margin-left: 1020px;
     width: 70px;
     height: 30px;
     background: #8f86bb;
